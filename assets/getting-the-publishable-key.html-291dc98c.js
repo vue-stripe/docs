@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3287f2dc","path":"/faqs/getting-the-publishable-key.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1675262353000,"contributors":[{"name":"Joff Tiquez","email":"jofftiquez@gmail.com","commits":1}]},"filePathRelative":"faqs/getting-the-publishable-key.md"}');export{e as data};
