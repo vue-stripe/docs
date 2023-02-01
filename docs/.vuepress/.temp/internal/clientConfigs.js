@@ -6,6 +6,7 @@ import clientConfig4 from '/Users/centipede/Documents/workspace/personal/vue-str
 import clientConfig5 from '/Users/centipede/Documents/workspace/personal/vue-stripe/docs/node_modules/@vuepress/theme-default/lib/client/config.js'
 import clientConfig6 from '/Users/centipede/Documents/workspace/personal/vue-stripe/docs/node_modules/@vuepress/plugin-back-to-top/lib/client/config.js'
 import clientConfig7 from '/Users/centipede/Documents/workspace/personal/vue-stripe/docs/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
+import clientConfig8 from '/Users/centipede/Documents/workspace/personal/vue-stripe/docs/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -16,4 +17,5 @@ export const clientConfigs = [
   clientConfig5,
   clientConfig6,
   clientConfig7,
+  clientConfig8,
 ]

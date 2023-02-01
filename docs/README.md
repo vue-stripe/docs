@@ -1,14 +1,18 @@
 ---
+title: Home
+desctription: Stripe Checkout & Elements for Vue.js
 home: true
-heroText: Vue Stripe
-tagline: Collection of Vue.js components, plugins, and composables for Stripe.js
+heroText: Vue Stripe 💳
+heroImage: /images/vue-stripe-logo.png
+heroAlt: Vue Stripe Logo
+tagline: Stripe Checkout & Elements for Vue.js
 actions:
-  - text: Get Started
-    link: /get-started/
+  - text: Get Started!
+    link: /guide/
     type: primary
-  - text: Get Started
-    link: /get-started/
-    type: secodary
+  # - text: Get Started
+  #   link: /introduction/
+  #   type: secodary
 features:
   - title: Payment Element
     details: Accept payment methods from around the globe with a single secure, embeddable UI component.
