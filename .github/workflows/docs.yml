@@ -24,6 +24,9 @@ jobs:
           # choose node.js version to use
           node-version: 16
 
+      - name: Install dependencies
+        run: npm install
+
       # run build script
       - name: Build Vue Stripe documentation site
         run: npm run docs:build
