@@ -16,10 +16,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+      - name: Install Firebase
+        run: npm install firebase-tools -g
       - name: Install dependencies
         run: npm install
       - name: Build Vue Stripe documentation site
         run: npm run docs:build
+      - name: Target apply
+        run: |
+          firebase use vue-stripe-docs && \
+          firebase target:clear hosting production && \
+          firebase target:apply hosting production vue-stripe-docs-v5 && \
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
@@ -28,3 +35,4 @@ jobs:
           siteId: vue-stripe-docs-v5
           target: production
           channelId: live
+
