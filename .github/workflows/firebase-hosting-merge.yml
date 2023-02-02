@@ -26,7 +26,7 @@ jobs:
         run: |
           firebase use vue-stripe-docs && \
           firebase target:clear hosting production && \
-          firebase target:apply hosting production vue-stripe-docs-v5 && \
+          firebase target:apply hosting production vue-stripe-docs-v5
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
