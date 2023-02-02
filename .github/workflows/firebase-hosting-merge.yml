@@ -28,4 +28,3 @@ jobs:
           siteId: vue-stripe-docs-v5
           target: production
           channelId: live
-          projectId: vue-stripe-docs
