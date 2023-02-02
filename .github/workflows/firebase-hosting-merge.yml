@@ -22,11 +22,6 @@ jobs:
         run: npm install
       - name: Build Vue Stripe documentation site
         run: npm run docs:build
-      - name: Target apply
-        run: |
-          firebase use vue-stripe-docs && \
-          firebase target:clear hosting production && \
-          firebase target:apply hosting production vue-stripe-docs-v5
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
