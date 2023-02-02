@@ -1,3 +1,3 @@
 # Vue Stripe Documentation
 
-> See WIP docs site in: https://vue-stripe.github.io/docs
+> See WIP docs site in: https://vue-stripe-documentation.web.app/
