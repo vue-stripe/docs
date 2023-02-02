@@ -5,7 +5,7 @@
   "vue-stripe-docs": {
     "hosting": {
       "production": [
-        "vue-stripe-docs-v5"
+        "vue-stripe-documentation"
       ]
     }
   }
