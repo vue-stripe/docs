@@ -23,7 +23,6 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_VUE_STRIPE_DOCS }}'
           projectId: vue-stripe-docs
-          siteId: vue-stripe-docs-v5
           target: production
           channelId: pull-requests
           expires: 7d
