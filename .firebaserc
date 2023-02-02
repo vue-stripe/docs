@@ -2,11 +2,13 @@
   "projects": {
     "default": "vue-stripe-docs"
   },
-  "vue-stripe-docs": {
-    "hosting": {
-      "production": [
-        "vue-stripe-documentation"
-      ]
+  "targets": {
+    "vue-stripe-docs": {
+      "hosting": {
+        "production": [
+          "vue-stripe-documentation"
+        ]
+      }
     }
   }
 }
