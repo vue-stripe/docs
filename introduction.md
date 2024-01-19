@@ -39,7 +39,7 @@ const members = [
   },
   {
     avatar: 'https://www.github.com/mahomuri.png',
-    name: 'Joff Tiquez',
+    name: 'Paolo Snatos',
     title: 'Contributor',
     links: [
       { icon: 'github', link: 'https://github.com/mahomuri' },
