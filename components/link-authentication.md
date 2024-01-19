@@ -2,7 +2,7 @@
 
 The Link Authentication Element is an embeddable UI component that allows you to accept a payment with Stripe Link Payment.
 
-<script setup>
+<!-- <script setup>
 import { PaymentIntent, LinkAuthentication, useStripe } from 'vue-stripe-demi';;
 import { onMounted, ref } from 'vue';
 
@@ -74,4 +74,4 @@ async function submit () {
   @focus="() => console.log('focus')"
   @blur="() => console.log('blur')"
   @escape="() => console.log('escape')"
-/>
+/> -->
