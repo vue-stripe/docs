@@ -23,3 +23,34 @@ Aside from the fact that Vue Stripe is the official Stripe partner component lib
 ## Who is Vue Stripe for?
 
 Vue Stripe is for anyone who wants to build Stripe integrations in their Vue.js applications. It's especially useful for developers who are new to Stripe and want to get started quickly.
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: 'https://www.github.com/jofftiquez.png',
+    name: 'Joff Tiquez',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/jofftiquez' },
+      { icon: 'x', link: 'https://twitter.com/jrtiquez' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/mahomuri.png',
+    name: 'Joff Tiquez',
+    title: 'Contributor',
+    links: [
+      { icon: 'github', link: 'https://github.com/mahomuri' },
+      { icon: 'x', link: 'https://twitter.com/mahomuri' }
+    ]
+  },
+]
+</script>
+
+## The Team
+
+Say hello to our awesome team.
+
+<VPTeamMembers size="small" :members="members" />

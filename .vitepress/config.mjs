@@ -2,8 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Vue Stripe",
+  title: "Vue Stripe 💳",
   description: "The official partner Stripe component library for Vue.js",
+  head: [
+    [
+      'link', 
+      { rel: 'icon', href: '/favicon.ico' }
+    ]
+  ],
   themeConfig: {
     lastUpdated: true,
 
@@ -64,7 +70,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/vue-stripe/vue-stripe/edit/v2/packages/docs/:path',
+      pattern: 'https://github.com/vue-stripe/docs/edit/main/:path',
       text: 'Suggest changes',
     },
   }

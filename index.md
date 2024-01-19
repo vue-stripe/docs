@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Vue Stripe 💳"
+  name: "Vue Stripe"
   text: "Vue.js composables & components for Stripe"
   tagline: The official Stripe partner library for Vue.js
   image:
@@ -29,4 +29,3 @@ features:
   - title: 🧱 Advanced UI Elements
     details: Implement more of Stripe's advanced UI Elements
 ---
-
