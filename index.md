@@ -11,11 +11,11 @@ hero:
     alt: Vue Stripe Logo
   actions:
     - theme: brand
-      text: Get Started
-      link: /getting-started
-    - theme: alt
-      text: Introduction
+      text: Let's Go!
       link: /introduction
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/vue-stripe
 
 features:
   - icon: 💰
