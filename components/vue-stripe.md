@@ -1,0 +1,1 @@
+# The Vue Stripe Component
