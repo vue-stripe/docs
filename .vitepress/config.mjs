@@ -42,7 +42,8 @@ export default defineConfig({
         text: 'Components',
         items: [
           { text: 'Vue Stripe', link: '/components/vue-stripe' },
-          { text: 'Elements', link: '/components/elements' }
+          { text: 'Elements', link: '/components/elements' },
+          { text: 'Link Authentication', link: '/components/link-authentication' }
         ]
       },
       {
