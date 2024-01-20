@@ -25,7 +25,7 @@ features:
     title: Link Authentication Element
     details: Accept a payment with Stripe Link Payment
   - icon: 💸
-    title: Pay Button Element
+    title: Express Checkout Element
     details: Show multiple one-click payment buttons (including Apple Pay and Google Pay) to your customers at the same time
   - icon: 💳
     title: Address Element

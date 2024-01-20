@@ -35,6 +35,7 @@ export default defineConfig({
         text: 'Introduction',
         items: [
           { text: 'What is Vue Stripe', link: '/introduction' },
+          { text: 'Understanding Stripe.js', link: '/understanding-stripe-js' },
           { text: 'Getting Started', link: '/getting-started' }
         ]
       },
@@ -43,13 +44,25 @@ export default defineConfig({
         items: [
           { text: 'Vue Stripe', link: '/components/vue-stripe' },
           { text: 'Elements', link: '/components/elements' },
-          { text: 'Link Authentication', link: '/components/link-authentication' }
+          { text: 'Payment Element', link: '/components/payment-element' },
+          { text: 'Link Authentication Element', link: '/components/link-authentication-element' },
+          { text: 'Express Checkout Element', link: '/components/express-checkout-element' },
+          { text: 'Address Element', link: '/components/address-element' },
+          { text: 'Advanced UI Element', link: '/components/advanced-ui-element' },
         ]
       },
       {
         text: 'Composables',
         items: [
           { text: 'useStripe', link: '/composables/use-stripe' },
+          { text: 'useElements', link: '/composables/use-elements' },
+          { text: 'useElement', link: '/composables/use-element' },
+        ]
+      },
+      {
+        text: 'FAQs',
+        items: [
+          { text: 'How to get a publishable key', link: '/faqs/publishable-key' },
         ]
       },
       {
